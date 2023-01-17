@@ -1,0 +1,160 @@
+
+:root {
+
+    --primary: #c8e9f2;
+
+    --secondary: #a8e9ed;
+
+    --tertiary: #89afaf;
+
+    --light-dark: #6f6866;
+
+    --dark: #0b0a0a;
+
+    --border-radius: .3rem;
+
+}
+
+body {
+
+    background-color: var(--primary);
+
+    margin: 0;
+
+    padding: 0;
+
+    color: var(--dark);
+
+    line-height: 1.5;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.header-title {
+
+    font-weight: bold;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.search-button {
+
+    border: 1px solid;
+
+    padding: 5px;
+
+    color: #45a5d1;
+
+    width: 150px;
+
+    background-image: url(./image/nyc-concerts.jpeg);
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    height: 40px;
+
+}
+
+.card-content {
+
+    width: 300px;
+
+    box-shadow: 5px 5px 5px #aaaaaa;
+
+    height: 150px;
+
+    padding: 10px;
+
+}
+
+.hero {
+
+    float: left;
+
+    margin-left: 20px;
+
+    
+
+}
+
+
+.col-6, .history{
+
+    text-align: center;
+
+    padding: 10px;
+
+}
+
+
+.history{
+
+    border: 3px solid transparent;
+
+    padding-bottom: 30%;
+
+    background-color: #fff;
+
+    border-radius: 10px;
+
+    box-shadow: 5px 5px 5px #aaaaaa;
+
+    width: 300px;
+
+    margin-top: 20px;
+
+}
+
+.col-8 {
+
+    width: auto;
+
+    border: none;
+
+}
+.current-weather{
+
+    text-align: center;
+    background-color: #fff;
+    float: left;
+    width: 60%;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+
+}
+.future-weather{
+
+    text-align: center;
+    float: left;
+    width: 63%;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+
+}
+.future-weather-comp{
+
+    background-color: rgb(112, 112, 233);
+    float: left;
+    width: 18%;
+    padding: 2px;
+    margin: 2px 2px 2px 2px;
+
+}
+
+
+
+#map {
+    height: 400px;
+    width: 80%;
+    margin-left: 5%;
+    padding-left: 10%;
+}
